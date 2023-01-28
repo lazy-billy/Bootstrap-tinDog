@@ -3,7 +3,7 @@
     color: #fff;
 }
 .container-fluid {
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
 
 h1 {
@@ -28,9 +28,12 @@ h2 {
     padding: 0 18px
 }
 
-.rotated {
+.title-image {
   transform: rotate(25deg);
-  width: 70%;
+  width: 60%;
+  position: relative;
+  bottom: 40px;
+  left: 50px;
 }
 
 .dwl-btn {
@@ -48,6 +51,9 @@ h2 {
 
 #features {
     padding: 10% 15%;
+    position: relative;
+
+    background-color: #fff;
 }
 
 p {
@@ -79,4 +85,26 @@ p {
 
 .carousel-item {
     padding: 7% 15%;
+}
+
+#pricing {
+    padding: 100px;
+}
+
+.pricing-col {
+    padding: 3% 2%;
+}
+
+@media (max-width: 991px) {
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0deg);
+    }
+
+
+
 }
